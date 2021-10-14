@@ -500,7 +500,7 @@ section {
 	margin:0 auto 0;
 }
 
-.posts { max-width:var(--postsize); margin-bottom:105%; }
+.posts { max-width:var(--postsize); margin-bottom:75%; }
 
 .ph { position:relative; overflow:hidden; }
 
