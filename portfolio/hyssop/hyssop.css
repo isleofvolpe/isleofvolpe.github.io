@@ -496,11 +496,11 @@ section {
 	line-height:1.75em;
 	width:100%;
 	max-width:var(--postsize);
-	padding-top:300px;
+	padding-top:80px;
 	margin:0 auto 0;
 }
 
-.posts { max-width:var(--postsize); margin-bottom:25%; }
+.posts { max-width:var(--postsize); margin-bottom:105%; }
 
 .ph { position:relative; overflow:hidden; }
 
