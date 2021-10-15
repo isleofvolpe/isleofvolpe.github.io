@@ -162,7 +162,7 @@ hr {
 	border:none;
 	margin:.5em auto;
 	width:100%;
-	border-top:1px solid var(--borders);
+	border-top:0px solid var(--borders);
 }
 
 /*  buttons  */	
