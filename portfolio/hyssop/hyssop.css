@@ -5,7 +5,6 @@
 #s-m-t-tooltip {
 	padding:6px;
 	margin:5px 15px;
-	background-color:var(--accent);
 	font:.65em var(--bodyfont);
 	letter-spacing:1.5px;
 	font-weight:600;
