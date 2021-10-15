@@ -758,7 +758,7 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 	padding-left:5%;
 }
 
-.reblog { padding-right:50px; }
+.reblog { padding-right: 0px; }
 
 .like-b {
 	position:relative;
