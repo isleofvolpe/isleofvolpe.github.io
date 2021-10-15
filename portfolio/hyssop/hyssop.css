@@ -750,13 +750,12 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 	display:block;
 	text-transform:lowercase;
 	font-weight: bold;
-	margin-bottom:35%;
 }
 
 .notecount {
 	text-transform:lowercase;
 	color:var(--text);
-	padding-left:50%;
+	padding-left:55%;
 	font-weight:normal;
 }
 
