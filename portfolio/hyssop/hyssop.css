@@ -95,6 +95,7 @@ body {
 	font-weight:var(--bodyfontweight);
 	word-wrap:break-word;
 	text-align:justify;
+	text-transform:lowercase;
 	letter-spacing:.15px;
 	margin:0;
 	width:100vw;
@@ -787,7 +788,8 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 	display:inline-block;
 	font-family:var(--bodyfont);
 	font-size:calc(var(--bodyfontsize) - 2px);
-	font-weightnormal;
+	font-weight:normal;
+	text-transform:lowercase;
 	text-align:left;
 	line-height:1.5em;
 	padding-top:10px;
