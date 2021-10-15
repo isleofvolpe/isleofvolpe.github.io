@@ -293,7 +293,7 @@ hr {
 	background:var(--background);
 	border-radius:25%;
 	padding:2px 6px;
-	font-size:20px;
+	font-size:25px;
 	z-index:999999;
 }
 
@@ -500,7 +500,7 @@ section {
 	margin:0 auto 0;
 }
 
-.posts { max-width:var(--postsize); margin-bottom:75%; }
+.posts { max-width:var(--postsize); margin-bottom:35%; }
 
 .ph { position:relative; overflow:hidden; }
 
@@ -537,7 +537,7 @@ section {
 	color:var(--title);
 	font-family:var(--bodyfont);
 	font-weight:bold;
-	font-size:calc(var(--bodyfontsize) + 2px);
+	font-size:calc(var(--bodyfontsize) + 4px);
 	line-height:1.75em;
 }
 
