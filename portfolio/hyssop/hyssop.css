@@ -751,15 +751,17 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 	display:block;
 	text-transform:lowercase;
 	font-weight: bold;
+	margin-bottom:35%;
 }
 
 .notecount {
 	text-transform:lowercase;
 	color:var(--text);
-	padding-left:5%;
+	padding-left:75%;
+	font-weight:normal;
 }
 
-.reblog { padding-right: 0px; }
+.reblog { padding-right: 0px; font-weight:normal; }
 
 .like-b {
 	position:relative;
