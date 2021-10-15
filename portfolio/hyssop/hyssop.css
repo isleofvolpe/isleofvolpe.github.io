@@ -886,8 +886,8 @@ body.night .fontbutton:hover { color:var(--nightaccent)!important; }
 
 body.night #s-m-t-tooltip { color:var(--nighttooltiptext); }
 
-body.night .via { border-bottom:1px solid var(--nightborders); }
-body.night hr { border-top:1px solid var(--nightborders); }
+body.night .via { border-bottom:0px solid var(--nightborders); }
+body.night hr { border-top:0px solid var(--nightborders); }
 body.night blockquote, body.night .quote { border-left:1px solid var(--nightborders); }
 
 body.night iframe.tmblr-iframe { white-space:nowrap; -webkit-filter: invert(0%); -moz-filter:invert(0%); -o-filter:invert(0%); -ms-filter:invert(0%); filter:invert(0%); }
