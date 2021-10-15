@@ -537,7 +537,7 @@ section {
 	color:var(--title);
 	font-family:var(--bodyfont);
 	font-weight:bold;
-	font-size:calc(var(--bodyfontsize) + 4px);
+	font-size:calc(var(--bodyfontsize) + 6px);
 	line-height:1.75em;
 }
 
