@@ -95,7 +95,6 @@ body {
 	font-weight:var(--bodyfontweight);
 	word-wrap:break-word;
 	text-align:justify;
-	text-transform:lowercase;
 	letter-spacing:.15px;
 	margin:0;
 	width:100vw;
