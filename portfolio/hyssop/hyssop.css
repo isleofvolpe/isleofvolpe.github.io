@@ -500,7 +500,7 @@ section {
 	margin:0 auto 0;
 }
 
-.posts { max-width:var(--postsize); margin-bottom:35%; }
+.posts { max-width:var(--postsize); margin-bottom:25%; }
 
 .ph { position:relative; overflow:hidden; }
 
@@ -537,7 +537,7 @@ section {
 	color:var(--title);
 	font-family:var(--bodyfont);
 	font-weight:bold;
-	font-size:calc(var(--bodyfontsize) + 6px);
+	font-size:calc(var(--bodyfontsize) + 8px);
 	line-height:1.75em;
 }
 
@@ -757,7 +757,7 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 .notecount {
 	text-transform:lowercase;
 	color:var(--text);
-	padding-left:75%;
+	padding-left:50%;
 	font-weight:normal;
 }
 
@@ -884,7 +884,7 @@ body.night .sidetabsub a:hover { color:var(--nightlink)!important; }
 
 body.night .fontbutton:hover { color:var(--nightaccent)!important; }
 
-body.night #s-m-t-tooltip { background-color:var(--nightaccent); color:var(--nighttooltiptext); }
+body.night #s-m-t-tooltip { color:var(--nighttooltiptext); }
 
 body.night .via { border-bottom:1px solid var(--nightborders); }
 body.night hr { border-top:1px solid var(--nightborders); }
