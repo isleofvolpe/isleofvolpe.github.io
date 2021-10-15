@@ -811,7 +811,7 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 .via {
 	margin-bottom:2em;
 	padding-bottom:.5em;
-	border-bottom:1px solid var(--borders);
+	border-bottom:0px solid var(--borders);
 }
 
 ol.notes {
