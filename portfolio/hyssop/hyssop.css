@@ -457,7 +457,7 @@ ul.accordion li:last-child { margin-bottom:0px; }
 ul.accordion li.active .navtitle { color:var(--accent); }
 ul.accordion li.active .navtitle:hover { color:var(--link); }
 
-ul.navtags { list-style:none; display:none; margin:0; }
+ul.navtags { list-style:none; margin:0; }
 ul.navtags a { color:var(--text); }
 ul.navtags a:hover { color:var(--link); }
 ul.navtags li { margin-bottom:5px; }
