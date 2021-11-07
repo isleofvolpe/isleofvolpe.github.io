@@ -415,7 +415,7 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
-.tabone { margin:5px 0 50px; }
+.tabone { margin:5px 0 50px; line-height: 100%; }
 
 .tabone img {
 	display:inline-block;
