@@ -104,7 +104,7 @@ body {
 		-webkit-font-smoothing:antialiased;
 }
 
-a { cursor:pointer; color:var(--link); text-decoration:none; }
+a { cursor:crosshair; color:var(--link); text-decoration:none; }
 
 a:hover {
 	color:var(--accent);
@@ -113,7 +113,7 @@ a:hover {
 		-webkit-transition:all .3s linear;
 		-o-transition:all .3s linear;
 		-moz-transition:all .3s linear;
-	cursor:pointer;
+	cursor:crosshair;
 }
 
 blockquote {
@@ -288,7 +288,7 @@ hr {
 
 #iconlinks {
 	position:fixed;
-	top:80%;
+	top:90%;
 	background:var(--background);
 	border-radius:25%;
 	padding:2px 6px;
@@ -399,7 +399,7 @@ sidebar img {
 .sidetabtitle {
 	color:var(--title);
 	font-family:var(--titlefont);
-	font-size:20px;
+	font-size:22px;
 	margin-bottom:25px;
 }
 
