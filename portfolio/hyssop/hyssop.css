@@ -756,7 +756,7 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 .notecount {
 	text-transform:lowercase;
 	color:var(--text);
-	padding-left:65%;
+	padding-left:45%;
 	font-weight:normal;
 }
 
