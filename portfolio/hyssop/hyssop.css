@@ -399,7 +399,7 @@ sidebar img {
 .sidetabtitle {
 	color:var(--title);
 	font-family:var(--titlefont);
-	font-size:calc(18px + 6px);
+	font-size:20px;
 	margin-bottom:25px;
 }
 
@@ -415,7 +415,7 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
-.tabone { margin:5px 0 50px; line-height: 100%; }
+.tabone { margin:5px 0 50px; line-height: 180%; }
 
 .tabone img {
 	display:inline-block;
@@ -463,31 +463,6 @@ ul.navtags a:hover { color:var(--link); }
 ul.navtags li { margin-bottom:5px; }
 
 tabimage img { display:block; max-width:500px; max-height:550px!important; }
-
-/*  search  */
-
-#searchbar {
-	display:inline-block;
-	color:var(--text);
-	width:auto;
-	border:none;
-	margin:25px 0;
-	padding:15px 0;
-}
-
-.search .query {
-	background:transparent;
-	color:var(--accent);
-	border:0;
-	outline:0;
-	font:inherit;
-	transition:0.25s ease-in-out;
-}
-
-::-webkit-input-placeholder { color:var(--text); }
-:-moz-placeholder { color:var(--text); }
-::-moz-placeholder { color:var(--text); }
-:-ms-input-placeholder { color:var(--text); }
 
 /*  posts  */
 
