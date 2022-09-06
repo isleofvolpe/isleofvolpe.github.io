@@ -411,7 +411,7 @@ sidebar img {
 .sidetabsub a { color:var(--accent); }
 .sidetabsub a:hover { color:var(--link)!important; }
 
-.sidetabblock { margin-bottom:50px; }
+.sidetabblock { margin-bottom: 50px; text-align: justify; }
 
 .tabone { margin: 5px 0 50px; line-height: 180%; text-align: justify; }
 
@@ -427,23 +427,24 @@ sidebar img {
 .byf { padding-bottom:25px; }
 
 .projects p { padding:2.5px 0; }
-.projects p:first-of-type { padding-bottom:0; }
+.projects p:first-of-type { padding-bottom: 0; }
 
 ul.accordion {
-	list-style:none;
-	padding-top:10px;
-	margin-bottom:-5px;
+	list-style: none;
+	padding-top: 10px;
+	margin-bottom: -5px;
 }
 
 ul.accordion .navtitle {
-	display:block;
-	position:relative;
-	color:var(--link);
-	margin-bottom:10px;
+	display: block;
+	position: relative;
+	color: var(--link);
+	margin-bottom: 10px;
+	text-align: justify;
 }
 
 ul.accordion .navtitle:hover {
-	color:var(--accent);
+	color: var(--accent);
 	transition:all .3s linear;
 		-webkit-transition:all .3s linear;
 		-o-transition:all .3s linear;
