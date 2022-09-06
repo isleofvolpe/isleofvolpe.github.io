@@ -722,16 +722,15 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 /*  permalink and tags  */
 
 .when {
-	display:block;
-	text-transform:lowercase;
+	display: block;
+	text-transform: capitalize;
 	font-weight: bold;
 }
 
 .notecount {
-	text-transform:lowercase;
-	color:var(--text);
-	padding-left:45%;
-	font-weight:normal;
+	text-transform: capitalize;
+	color: var(--text);
+	font-weight: normal;
 }
 
 .reblog { padding-right: 0px; font-weight:normal; }
