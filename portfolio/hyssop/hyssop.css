@@ -299,10 +299,10 @@ hr {
 #iconlinks:hover { cursor:c rosshair; }
 
 .home { left: calc(5% - 6px); }
-.ask { left: calc(10% - 6px); }
-.archive { left: calc(15% - 6px); }
-.icon1 {  left: calc(20% - 6px); }
-.icon2 { left: calc(25% - 6px); }
+.ask { left: calc(15% - 6px); }
+.archive { left: calc(23% - 6px); }
+.icon1 {  left: calc(30% - 6px); }
+.icon2 { left: calc(40% - 6px); }
 
 .active { color:var(--accent); }
 
