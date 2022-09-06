@@ -3,108 +3,108 @@
 /*  tooltips  */
 
 #s-m-t-tooltip {
-	padding:6px;
-	margin:5px 15px;
-	font:.65em var(--bodyfont);
-	letter-spacing:1.5px;
+	padding: 6px;
+	margin: 5px 15px;
+	font: .65em var(--bodyfont);
+	letter-spacing: 1.5px;
 	font-weight: 300;
-	color:var(--tooltiptext);
-	z-index:99999999;
+	color: var(--tooltiptext);
+	z-index: 99999999;
 }
 
 /*  scrollbar  */
 
 ::-webkit-scrollbar {
-	height:11px;
-	width:11px;
-	background-color:transparent;
+	height: 11px;
+	width: 11px;
+	background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	background:transparent;
-	border:4px solid transparent;
-	background-clip:padding-box;
+	background: transparent;
+	border: 4px solid transparent;
+	background-clip: padding-box;
 }
 
-.rightwrap { scrollbar-width:thin; }
+.rightwrap { scrollbar-width: thin; }
 
 .rightwrap::-webkit-scrollbar {
-	height:11px;
-	width:11px;
-	background-color:transparent;
+	height: 11px;
+	width: 11px;
+	background-color: transparent;
 }
 
 .rightwrap::-webkit-scrollbar-thumb {
-	background:var(--accent);
-	border:4px solid transparent;
-	background-clip:padding-box;
+	background: var(--accent);
+	border: 4px solid transparent;
+	background-clip: padding-box;
 }
 
-html { overflow-y:scroll; overflow-x: hidden; }
+html { overflow-y: scroll; overflow-x: hidden; }
 
 /*  tumblr controls  */
 
 iframe.tmblr-iframe {
-	position:fixed;
-	display:inline-block;
-	top:2.5%!important;
-	right:30px!important;
-	padding:2px 2.5% 0 0;
-	z-index:99999999999999!important;
-	opacity:0;
-	transition:.4s ease-in-out;
-	transform:scale(0.75,0.75);
-	transform-origin:right top;
+	position: fixed;
+	display: inline-block;
+	top: 2.5%!important;
+	right: 30px!important;
+	padding: 2px 2.5% 0 0;
+	z-index: 99999999999999!important;
+	opacity: 0;
+	transition: .4s ease-in-out;
+	transform: scale(0.75,0.75);
+	transform-origin: right top;
 }
 
-iframe.tmblr-iframe:hover { opacity:1!important; cursor:crosshair; }
+iframe.tmblr-iframe:hover { opacity: 1!important; cursor: crosshair; }
 
 /*  selection  */
 
-::-wewbkit-selection { background:var(--borders); }
-::-moz-selection{ background:var(--borders); }
-::selection { background:var(--borders); }
+::-wewbkit-selection { background: var(--borders); }
+::-moz-selection{ background: var(--borders); }
+::selection { background: var(--borders); }
 
 /*  lightboxes  */
 
 .lightbox-image, #tumblr_lightbox img {
-	max-width:none;
-	padding:0px!important;
-	border:0!important;
-	opacity:1!important;
-	box-shadow:none!important;
+	max-width: none;
+	padding: 0px!important;
+	border: 0!important;
+	opacity: 1!important;
+	box-shadow: none!important;
 		-moz-box-shadow:none!important;
 		-webkit-box-shadow:none!important;
-	border-radius:0px!important;
+	border-radius: 0px!important;
 		-moz-border-radius:0px!important;
 		-webkit-border-radius:0px!important;
 }
 
-.tmblr-lightbox, #tumblr_lightbox { background:rgba(var(--rgbbackground), .95)!important; }
-.vignette, #vignette { opacity:0; }
+.tmblr-lightbox, #tumblr_lightbox { background: rgba(var(--rgbbackground), .95)!important; }
+.vignette, #vignette { opacity: 0; }
 
 /*  typography  */
 
-a:hover { cursor:pointer; }
+a:hover { cursor: pointer; }
 
 body {
-	background:var(--background);
-	color:var(--text);
-	font-family:var(--bodyfont);
-	font-size:var(--bodyfontsize);
-	font-weight:var(--bodyfontweight);
-	word-wrap:break-word;
-	text-align:justify;
-	letter-spacing:.15px;
-	margin:0;
-	width:100vw;
-	overflow-x:hidden;
-	font-smoothing:antialiased;
+	background: var(--background);
+	color: var(--text);
+	font-family: var(--bodyfont);
+	font-size: var(--bodyfontsize);
+	font-weight: var(--bodyfontweight);
+	word-wrap: break-word;
+	text-align: justify;
+	letter-spacing: .15px;
+	margin: 0;
+	width: 100vw;
+	overflow-x: hidden;
+	font-smoothing: antialiased;
 		-moz-osx-font-smoothing:grayscale;
 		-webkit-font-smoothing:antialiased;
 }
 
-a { cursor:crosshair; color:var(--link); text-decoration:none; }
+a { cursor: crosshair; color: var(--link); text-decoration: none; }
 
 a:hover {
 	color:var(--accent);
@@ -360,32 +360,33 @@ header {
 /*  sidebar  */
 
 sidebar {
-	background:var(--background);
-	max-width:500px;
-	height:100vh;
-	z-index:999;
+	background: var(--background);
+	text-align: center;
+	max-width: 500px;
+	height: 100vh;
+	z-index: 999;
 }
 
 sidebar img {
-	display:inline-block;
-	float:left;
-	background:transparent;
-	max-width:500px;
-	max-height:500px;
-	margin:0 15px 10px 0;
-	cursor:pointer;
+	display: inline-block;
+	float: left;
+	background: transparent;
+	max-width: 500px;
+	max-height: 500px;
+	margin: 0 15px 10px 0;
+	cursor: pointer;
 }
 
 .maintitle {
-	color:var(--title);
-	font-family:var(--titlefont);
-	font-size:var(--titlefontsize);
-	font-weight:var(--titlefontweight);
-	border:0;
-	margin-bottom:25px;
+	color: var(--title);
+	font-family: var(--titlefont);
+	font-size: var(--titlefontsize);
+	font-weight: var(--titlefontweight);
+	border: 0;
+	margin-bottom: 25px;
 }
 
-.description { margin-top:15px; }
+.description { margin-top: 15px; text-align: justify; }
 
 /*  sidebar tabs  */
 
@@ -412,7 +413,7 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
-.tabone { margin:5px 0 50px; line-height: 180%; }
+.tabone { margin: 5px 0 50px; line-height: 180%; text-align: justify; }
 
 .tabone img {
 	display:inline-block;
