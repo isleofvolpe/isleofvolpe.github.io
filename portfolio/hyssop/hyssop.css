@@ -301,11 +301,8 @@ hr {
 .home { left:calc(5% - 6px); }
 .ask { left:calc(10% - 6px); }
 .archive { left:calc(15% - 6px); }
-.random { left:calc(20% - 6px); }
-.icon1 { left:calc(25% - 6px); }
-.icon2 { left:calc(30% - 6px); }
-.icon3 { left:calc(35% - 6px); }
-.icon4 { left:calc(40% - 6px); }
+.icon1 {  left:calc(20% - 6px); }
+.icon2 { left:calc(25% - 6px); }
 
 .active { color:var(--accent); }
 
@@ -910,11 +907,8 @@ body.legible .sidetabtitle, body.legible .navtitle { font-size:22px; }
 	.home { left:calc(0% + 20px); }
 	.ask { left:calc(10% + 20px); }
 	.archive { left:calc(20% + 20px); }
-	.random { left:calc(30% + 20px); }
-	.icon1 { left:calc(40% + 20px); }
-	.icon2 { left:calc(50% + 20px); }
-	.icon3 { left:calc(60% + 20px); }
-	.icon4 { left:calc(70% + 20px); }
+	.icon1 { left:calc(30% + 20px); }
+	.icon2 { left:calc(40% + 20px); }
 	
 	.wrap { display:block; }
 	.leftwrap { height:100%; width:75%; }
