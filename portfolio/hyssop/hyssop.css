@@ -287,22 +287,22 @@ hr {
 /*  icon links  */
 
 #iconlinks {
-	position:fixed;
-	top:90%;
-	background:var(--background);
-	border-radius:25%;
-	padding:2px 6px;
-	font-size:25px;
-	z-index:999999;
+	position: fixed;
+	top: 80%;
+	background: var(--background);
+	border-radius: 25%;
+	padding: 2px 6px;
+	font-size: 25px;
+	z-index: 999999;
 }
 
-#iconlinks:hover { cursor:crosshair; }
+#iconlinks:hover { cursor:c rosshair; }
 
-.home { left:calc(5% - 6px); }
-.ask { left:calc(10% - 6px); }
-.archive { left:calc(15% - 6px); }
-.icon1 {  left:calc(20% - 6px); }
-.icon2 { left:calc(25% - 6px); }
+.home { left: calc(5% - 6px); }
+.ask { left: calc(10% - 6px); }
+.archive { left: calc(15% - 6px); }
+.icon1 {  left: calc(20% - 6px); }
+.icon2 { left: calc(25% - 6px); }
 
 .active { color:var(--accent); }
 
@@ -390,7 +390,7 @@ sidebar img {
 
 /*  sidebar tabs  */
 
-.stcontainer { display:none; margin-bottom:50px; }
+.stcontainer { display:none; margin-bottom: 50px; }
 
 #sidetab0C { display:block; }
 
