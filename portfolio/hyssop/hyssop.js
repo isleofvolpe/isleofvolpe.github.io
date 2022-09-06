@@ -26,13 +26,9 @@ $(document).ready(function() {
         $("#sidetab0C").hide();
         $("#sidetab1C").show();
         $("#sidetab2C").hide();
-        $("#sidetab3C").hide();
-        $("#sidetab4C").hide();
         $(".home").removeClass("active")
         $(".icon1").addClass("active")
         $(".icon2").removeClass("active")
-        $(".icon3").removeClass("active")
-        $(".icon4").removeClass("active")
     });
     
     $(".icon2").on("click", function() {
@@ -40,41 +36,9 @@ $(document).ready(function() {
         $("#sidetab0C").hide();
         $("#sidetab1C").hide();
         $("#sidetab2C").show();
-        $("#sidetab3C").hide();
-        $("#sidetab4C").hide();
         $(".home").removeClass("active")
         $(".icon1").removeClass("active")
         $(".icon2").addClass("active")
-        $(".icon3").removeClass("active")
-        $(".icon4").removeClass("active")
-    });
-    
-    $(".icon3").on("click", function() {
-        $("sidebar").show();
-        $("#sidetab0C").hide();
-        $("#sidetab1C").hide();
-        $("#sidetab2C").hide();
-        $("#sidetab3C").show();
-        $("#sidetab4C").hide();
-        $(".home").removeClass("active")
-        $(".icon1").removeClass("active")
-        $(".icon2").removeClass("active")
-        $(".icon3").addClass("active")
-        $(".icon4").removeClass("active")
-    });
-    
-    $(".icon4").on("click", function() {
-        $("sidebar").show();
-        $("#sidetab0C").hide();
-        $("#sidetab1C").hide();
-        $("#sidetab2C").hide();
-        $("#sidetab3C").hide();
-        $("#sidetab4C").show();
-        $(".home").removeClass("active")
-        $(".icon1").removeClass("active")
-        $(".icon2").removeClass("active")
-        $(".icon3").removeClass("active")
-        $(".icon4").addClass("active")
     });
 });
 
