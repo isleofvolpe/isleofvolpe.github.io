@@ -759,15 +759,15 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 .like-b .liked + .b:after { content:'d'; }
 
 .tags {
-	display:inline-block;
-	font-family:var(--bodyfont);
-	font-size:calc(var(--bodyfontsize) - 2px);
-	font-weight:normal;
-	text-transform:lowercase;
-	text-align:left;
-	line-height:1.5em;
-	padding-top:10px;
-	margin-bottom:35%;
+	display: inline-block;
+	font-family: var(--bodyfont);
+	font-size: calc(var(--bodyfontsize) - 2px);
+	font-weight: normal;
+	text-transform: lowercase;
+	text-align: left;
+	line-height: 1.5em;
+	padding-top: 10px;
+	margin-bottom: 35%;
 	transition: all 0.5s ease-in-out;
 		-webkit-transition: all 0.5s ease-in-out;
 		-moz-transition: all 0.5s ease-in-out;
@@ -776,18 +776,18 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 
 .tags:before {
 	content:'#';
-	display:inline-block;
-	margin:0 10px;
+	display: inline-block;
+	margin: 0 10px;
 }
 
-.tags a { margin-left:0px; }
+.tags a { margin-left: 0px; text-transform: lowercase; }
 
 /*  permalink  */
 
 .via {
-	margin-bottom:2em;
-	padding-bottom:.5em;
-	border-bottom:0px solid var(--borders);
+	margin-bottom: 2em;
+	padding-bottom: .5em;
+	border-bottom: 0px solid var(--borders);
 }
 
 ol.notes {
