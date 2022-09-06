@@ -288,7 +288,7 @@ hr {
 
 #iconlinks {
 	position: fixed;
-	top: 70%;
+	top: 60%;
 	background: var(--background);
 	border-radius: 25%;
 	padding: 2px 6px;
@@ -298,11 +298,11 @@ hr {
 
 #iconlinks:hover { cursor:c rosshair; }
 
-.home { left: calc(5% - 6px); }
-.ask { left: calc(10% - 6px); }
-.archive { left: calc(15% - 6px); }
-.icon1 {  left: calc(20% - 6px); }
-.icon2 { left: calc(25% - 6px); }
+.home { left: calc(10% - 6px); }
+.ask { left: calc(20% - 6px); }
+.archive { left: calc(30% - 6px); }
+.icon1 {  left: calc(40% - 6px); }
+.icon2 { left: calc(50% - 6px); }
 
 .active { color:var(--accent); }
 
@@ -395,16 +395,17 @@ sidebar img {
 #sidetab0C { display:block; }
 
 .sidetabtitle {
-	color:var(--title);
-	font-family:var(--titlefont);
-	font-size:40px;
-	margin-bottom:25px;
+	color: var(--title);
+	font-family: var(--titlefont);
+	font-size: 40px;
+	text-align: justify;
+	margin-bottom: 25px;
 }
 
 .sidetabsub {
-	color:var(--accent);
-	font-weight:bold;
-	margin:0 10px 25px 0;
+	color: var(--accent);
+	font-weight: bold;
+	margin: 0 10px 25px 0;
 }
 
 .sidetabsub:hover { color:var(--accent); }
