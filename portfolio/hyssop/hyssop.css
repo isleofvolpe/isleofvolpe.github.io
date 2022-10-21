@@ -308,7 +308,7 @@ body.night .pngs { filter: invert(73%) sepia(13%) saturate(516%) hue-rotate(71de
 
 .home { left:calc(0% - 6px); }
 .ask { left:calc(10% - 6px);  }
-.archive { left:calc(20% - 6px); }
+.archive { left:calc(25% - 6px); }
 .icon2 { left:calc(35% - 6px); }
 
 .active { color:var(--accent); }
