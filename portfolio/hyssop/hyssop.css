@@ -299,8 +299,8 @@ hr {
 #iconlinks:hover { cursor: crosshair; }
 
 .pngs {
-	width: 100px; 
-  	height: 100px;
+	width: 80px; 
+  	height: 80px;
 }
 
 .home { left: calc(5% - 6px); }
