@@ -296,7 +296,12 @@ hr {
 	z-index: 999999;
 }
 
-#iconlinks:hover { cursor:c rosshair; }
+#iconlinks:hover { cursor: crosshair; }
+
+.pngs {
+	width: 100px; 
+  	height: 100px;
+}
 
 .home { left: calc(5% - 6px); }
 .ask { left: calc(15% - 6px); }
