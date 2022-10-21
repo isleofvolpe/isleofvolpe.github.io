@@ -306,10 +306,10 @@ hr {
 
 body.night .pngs { filter: invert(73%) sepia(13%) saturate(516%) hue-rotate(71deg) brightness(93%) contrast(85%); }
 
-.home { left:calc(10% - 6px); }
-.ask { left:calc(20% - 6px);  }
-.archive { left:calc(30% - 6px); }
-.icon2 { left:calc(40% - 6px); }
+.home { left:calc(0% - 6px); }
+.ask { left:calc(10% - 6px);  }
+.archive { left:calc(20% - 6px); }
+.icon2 { left:calc(35% - 6px); }
 
 .active { color:var(--accent); }
 
