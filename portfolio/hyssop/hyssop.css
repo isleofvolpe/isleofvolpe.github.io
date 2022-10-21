@@ -299,9 +299,12 @@ hr {
 #iconlinks:hover { cursor: crosshair; }
 
 .pngs {
-	width: 80px; 
-  	height: 80px;
+	width: 60px; 
+  	height: 60px;
+	filter: invert(68%) sepia(3%) saturate(6664%) hue-rotate(314deg) brightness(90%) contrast(77%);
 }
+
+body.night .pngs { filter: invert(73%) sepia(13%) saturate(516%) hue-rotate(71deg) brightness(93%) contrast(85%); }
 
 .home { left: calc(5% - 6px); }
 .ask { left: calc(15% - 6px); }
