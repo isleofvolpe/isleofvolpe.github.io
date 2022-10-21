@@ -299,8 +299,8 @@ hr {
 #iconlinks:hover { cursor: crosshair; }
 
 .pngs {
-	width: 60px; 
-  	height: 60px;
+	width: 100px; 
+  	height: 80px;
 	filter: invert(68%) sepia(3%) saturate(6664%) hue-rotate(314deg) brightness(90%) contrast(77%);
 }
 
