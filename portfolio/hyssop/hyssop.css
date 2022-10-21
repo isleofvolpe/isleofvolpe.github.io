@@ -288,7 +288,7 @@ hr {
 
 #iconlinks {
 	position: fixed;
-	top: 60%;
+	top: 50%;
 	background: var(--background);
 	border-radius: 25%;
 	padding: 2px 6px;
@@ -299,17 +299,17 @@ hr {
 #iconlinks:hover { cursor: crosshair; }
 
 .pngs {
-	width: 100px; 
-  	height: 80px;
+	width: 120px; 
+  	height: 100px;
 	filter: invert(68%) sepia(3%) saturate(6664%) hue-rotate(314deg) brightness(90%) contrast(77%);
 }
 
 body.night .pngs { filter: invert(73%) sepia(13%) saturate(516%) hue-rotate(71deg) brightness(93%) contrast(85%); }
 
-.home { left:calc(15% - 6px); }
+.home { left:calc(10% - 6px); }
 .ask { left:calc(20% - 6px);  }
-.archive { left:calc(25% - 6px); }
-.icon2 { left:calc(30% - 6px); }
+.archive { left:calc(30% - 6px); }
+.icon2 { left:calc(40% - 6px); }
 
 .active { color:var(--accent); }
 
