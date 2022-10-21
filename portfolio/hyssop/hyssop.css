@@ -893,11 +893,11 @@ body.night #ask_form { filter: invert(100%) grayscale(100%)!important; }
 
 /*  increased font size  */
 
-body.legible { font-size:18px; }
-body.legible .title { font-size:20px; }
-body.legible .query { font-size:18px; }
-body.legible .tags { font-size:16px; }
-body.legible .sidetabtitle, body.legible .navtitle { font-size:22px; }
+body.legible { font-size: 18px; }
+body.legible .title { font-size: 40px; }
+body.legible .query { font-size: 18px; }
+body.legible .tags { font-size: 16px; }
+body.legible .sidetabtitle, body.legible .navtitle { font-size: 32px; }
 
 /*  responsivity  */
 
