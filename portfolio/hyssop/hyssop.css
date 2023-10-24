@@ -707,6 +707,33 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 	max-width:100%;
 }
 
+.npf-audio-wrapper {
+    --NPF-Audio-Buttons-Size: 1.4rem;
+    --NPF-Audio-Buttons-Color: #555555; /* color of play & pause buttons */
+    --NPF-Audio-Buttons-Spacing: 1.3rem; /* space between buttons and song info */
+    
+    --NPF-Audio-Image-Size: 85px;
+    --NPF-Audio-Image-Spacing: 0px; /* gap between player info and cover image */
+}
+
+.npf-audio-background {
+    background-color: #f2f2f2; /* background color of player (optional) */
+    padding: 1.5rem;
+}
+
+.npf-audio-title-label,
+.npf-audio-artist-label,
+.npf-audio-album-label {
+    font-weight: bold;
+}
+
+.npf-audio-title,
+.npf-audio-artist,
+.npf-audio-album {
+    color: #333333; /* color of audio text (optional) */
+}
+
+
 /*  asks  */
 
 .question {
