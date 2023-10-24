@@ -654,54 +654,6 @@ a.read_more, .label { letter-spacing:1.5px; font-weight:bold; }
 
 /* audio */
 
-iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
-
-.soundcloud_audio_player { max-height:116px!important; width:100%!important; }
-
-.spotify_audio_player { max-height:80px!important; width:100%!important; }
-
-.player {
-	display:block;
-	position:absolute;
-	top:calc(50% - 19px);
-	left:17px;
-	width:27px;
-	height:27px;
-	padding:5px;
-	background:var(--base);
-	overflow:hidden;
-}
-
-.play { margin-left:-2px; }
-
-.hold {
-	position:relative;
-	display:block;
-	background:var(--base);
-	text-align:left;
-	min-height:24px;
-	padding:20px;
-}
-
-.audio_info {
-	vertical-align:left;
-	text-align:left;
-	line-height:16px;
-	margin-left:50px;
-	max-width:calc(100% - 35px);
-}
-
-.audio_info span {
-	display:block;
-	white-space:nowrap;
-	text-overflow:ellipsis;
-}
-
-.hold .artist {
-	font-weight:bold;
-	color:var(--title);
-}
-
 .video * {
 	cursor:crosshair;
 	max-width:100%;
