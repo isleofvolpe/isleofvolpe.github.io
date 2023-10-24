@@ -659,30 +659,37 @@ a.read_more, .label { letter-spacing:1.5px; font-weight:bold; }
 	max-width:100%;
 }
 
+figcaption.audio-caption,
+figcaption.audio-caption + audio[controls]{
+    display:none!important;
+}
+
 .npf-audio-wrapper {
     --NPF-Audio-Buttons-Size: 1.4rem;
-    --NPF-Audio-Buttons-Color: #555555; /* color of play & pause buttons */
+    --NPF-Audio-Buttons-Color: var(--text); /* color of play & pause buttons */
     --NPF-Audio-Buttons-Spacing: 1.3rem; /* space between buttons and song info */
-    
     --NPF-Audio-Image-Size: 85px;
     --NPF-Audio-Image-Spacing: 0px; /* gap between player info and cover image */
 }
 
 .npf-audio-background {
-    background-color: #f2f2f2; /* background color of player (optional) */
+    background-color: transparent; /* background color of player (optional) */
     padding: 1.5rem;
 }
 
 .npf-audio-title-label,
 .npf-audio-artist-label,
 .npf-audio-album-label {
+    text-transform: uppercase;
     font-weight: bold;
+    font-family: var(--bodyfont);
 }
 
 .npf-audio-title,
 .npf-audio-artist,
 .npf-audio-album {
-    color: #333333; /* color of audio text (optional) */
+    color:var(--text); /* color of audio text (optional) */
+    font-family: var(--titlefont);
 }
 
 
