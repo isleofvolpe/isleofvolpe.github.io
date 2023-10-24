@@ -666,9 +666,8 @@ figcaption.audio-caption + audio[controls]{
 
 .npf-audio-wrapper {
     --NPF-Audio-Buttons-Size: 1.4rem;
-    --NPF-Audio-Buttons-Color: var(--text); /* color of play & pause buttons */
     --NPF-Audio-Buttons-Spacing: 1.3rem; /* space between buttons and song info */
-    --NPF-Audio-Image-Size: 100px;
+    --NPF-Audio-Image-Size: 120px;
     --NPF-Audio-Image-Spacing: 0px; /* gap between player info and cover image */
 }
 
@@ -682,14 +681,13 @@ figcaption.audio-caption + audio[controls]{
 .npf-audio-album-label {
     text-transform: uppercase;
     font-weight: bold;
-    font-family: var(--bodyfont);
+    font: 20px var(--bodyfont);
 }
 
 .npf-audio-title,
 .npf-audio-artist,
 .npf-audio-album {
-    color:var(--text); /* color of audio text (optional) */
-    font-family: var(--titlefont);
+    font: 28px var(--titlefont);
 }
 
 
