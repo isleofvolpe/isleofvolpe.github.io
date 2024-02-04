@@ -694,13 +694,12 @@ figcaption.audio-caption + audio[controls]{
 /*  asks  */
 
 .question {
-	background:var(--base);
-	padding:15px 15px 5px 15px;
-	margin-bottom:1em;
+	font-family: 'IBM Plex Mono', monospace;
+	margin-bottom: 1em;
 	overflow: hidden;
 }
 
-.asker { text-transform:lowercase; font-weight:bold; }
+.asker { text-transform: uppercase; font-weight: bold; }
 .asker a {color:var(--link);}
 .asker a:hover {color:var(--accent);}
 
