@@ -713,12 +713,12 @@ figcaption.audio-caption + audio[controls]{
 
 .when {
 	display: block;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
 .notecount {
-	text-transform: capitalize;
+	text-transform: uppercase;
 	color: var(--text);
 	font-weight: normal;
 }
