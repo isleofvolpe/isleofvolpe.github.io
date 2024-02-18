@@ -481,7 +481,7 @@ section {
 	margin:0 auto 0;
 }
 
-.posts { max-width:var(--postsize); margin-bottom:25%; }
+.posts { max-width:var(--postsize); }
 
 .ph { position:relative; overflow:hidden; }
 
