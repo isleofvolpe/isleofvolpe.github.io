@@ -756,7 +756,7 @@ figcaption.audio-caption + audio[controls]{
 	text-align: left;
 	line-height: 1.5em;
 	padding-top: 10px;
-	margin-bottom: 35%;
+	margin-bottom: 15%;
 	transition: all 0.5s ease-in-out;
 		-webkit-transition: all 0.5s ease-in-out;
 		-moz-transition: all 0.5s ease-in-out;
